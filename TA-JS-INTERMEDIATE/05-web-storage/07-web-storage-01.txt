@@ -1,0 +1,19 @@
+Apa itu localStorage?
+- Local storage merupakan fungsi di javascript yang cara kerjanya sama seperti cookie 
+  ( data disimpan dalam browser )  tapi memiliki beberapa kelebihan kelebihan. 
+  Local storage dapat menyimpan data lebih aman dan lebih besar dibandingkan dengan cookie. 
+  Local storage juga dapat menyimpan data lebih dari 5 MB tanpa harus membebani performa browser. 
+
+Apa itu cookies?
+- Cookie adalah data, disimpan dalam file teks kecil, pada komputer Anda.
+  Ketika web server telah mengirimkan halaman web ke browser, koneksi ditutup, 
+  dan server melupakan segala sesuatu tentang pengguna.
+
+Apa perbedaan antara localStorage dan sessionStorage?
+- localStorage
+  data yang disimpan tidak memiliki waktu expired
+  ex : localStorage.setItem("nama", "Agus");
+
+- sessionStorage
+  data yang disimpan akan hilang jika browes ditutup
+  ex : localStorage.getItem("nama");
