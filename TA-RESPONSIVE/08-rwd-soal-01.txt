@@ -1,0 +1,27 @@
+1. Apa itu responsive web design?
+    yaitu sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri 
+    sesuai dengan ukuran layar pengguna, sehingga website nyaman digunakan meskipun dilihat di device yang berbeda-beda. Contohnya di suatu website ukuran text saat dilihat dilayar 
+    laptop berukuran 24px namun saat pengguna membuka websitenya dihandphone ukuran fontnya 34px karena layar HP yang lebih kecil sehingga ukuran text dibuat besar agar mudah dibaca.  
+
+2. Sebutkan apa saja relative units yang dimiliki oleh CSS?
+    %: Ukurannya relatif terhadap parent element.
+    em: Ukurannya relatif terhadap font-size dari elemen saat ini.
+    vmin: Ukurannya relatif terhadap ukuran viewport yang lebih kecil (misalnya diorientasi portrait, lebar akan lebih kecil daripada tinggi). 
+    vmax: Sama dengan vmin, dia akan melihat ukuran viewport yang lebih besar.
+    ex: Ukurannya relatif terhadap tinggi dari karakter "x" kecil font yang sedang aktif.
+    rem: Ukurannya relatif terhadap font-size root elemen (<html>). 
+    ch: Ukurannya mengikuti jumlah karakter.
+    vh: Ukurannya relatif terhadap tinggi viewport (ukuran jendela tau aplikasi), 1vh = 1/100 dari tinggi viewport.
+    vw: Ukurannya relatif terhadap lebar dari viewport. 1vw = 1/100 lebar viewport.
+
+
+3. Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+    yaitu titik batas dimana perubahan tampilan pada sebuah design akan terjadi yang ditandai dengan ukuran dari max-width atau min-width.
+    Contohnya saat menentukan max-widthnya 400px maka tampilan akan berubah saat titik tersebut sudah melewati maxnya yaitu di 401px.
+    Cara membuatnya adalah dengan media query dengan mendeklarasikan: @media only screen and (max-width: /*ukuran yang diinginkan*/) {/*style css yang akan merubah tampilan sesuai breakpointnya*/}
+
+4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+    Memanipulasi tata letak suatu element dalam bidang 1 dimensi bisa menggunakan flex, flex mengatur layout 1 dimensi (rows atau column, hanya salah satu).
+
+5. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+    Memanipulasi tata letak suatu element dalam bidang 2 dimensi bisa menggunakan grid, grid mengatur layout 2 dimensi (rows dan column, kedua-duanya).
