@@ -1,0 +1,76 @@
+body {
+  font-family: "oxygen", sans-serif;
+  font-size: 15px;
+  color: darkgrey;
+}
+
+.fz-13 {
+  font-size: 13px;
+}
+
+.btn-primary {
+  color: lightgray !important;
+  background-color: rgb(66, 66, 245) !important;
+  font-size: 15px;
+  border: none;
+}
+
+.bg-register {
+  background-image: url(bg.register.jpg);
+  background-size: cover;
+}
+
+/* html, body {
+    height: 100%;
+    /* background-color: red !important; */
+/* background-image: url(https://www.cantourslombok.com/wp-content/uploads/2020/03/moyo1-1.jpg);
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.signUp-from {
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    background-color: rgb(255, 249, 238) !important;
+    border-radius: 10px !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background: gainsboro;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: gray;
+    color: white;
+    margin: 0;
+} */
+
+/* .card-title {
+    font-weight: 400;
+    /* padding: 20px 20px; */
+/* } */
+/* 
+.btn {
+    background: gray!important;
+    border: none;
+    transform: translateY(10px);
+    font-size: 15px;
+    border-radius: 10px;
+} */
