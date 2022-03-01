@@ -1,30 +1,38 @@
-function register(event) {
-  event.preventDefault();
-  let name = document.getElementById("exampleInputText1").value;
 
-  let email = document.getElementById("exampleInputEmail").value;
+// start
 
-  let password = document.getElementById("exampleInputPassword").value;
+let btnRegis = document.querySelector('#regis')
 
-  let username = document.getElementById("exampleInputText1").value;
+btnRegis.onclick = register
 
-  if (name && email && password && username) {
-    localStorage.setItem("name", name);
-    localStorage.setItem("email", email);
-    localStorage.setItem("password", password);
-    localStorage.setItem("userName", username);
+function register() {
 
-    window.location.replace("../sign-up.hmtl");
-  } else {
-    swal("Warning!", "Data tidak boleh kosong");
+  let nama= document.querySelector('#username').value;
+  let email = document.querySelector('#email').value;
+  let pass = document.querySelector('#password').value;
+
+  if (nama && email && pass) {
+    localStorage.setItem('username', nama);
+    localStorage.setItem('uemail', email);
+    localStorage.setItem('upass', pass);
+    localStorage.setItem('haslogin', true);
+    window.location.replace('../sign-up.html')
   }
 }
+register()
 
 const checklogin = () => {
-  let hasLogin = localStorage.getItem("hasLogin");
-  if (hasLogin == "true") {
-    window.location.replace("../sign-up.html");
+  let hasLogin = localStorage.getItem('haslogin');
+  if(hasLogin == 'true') {
+    window.location.replace('../sign-up.html');
   }
-};
+}
+// checklogin();
 
-checklogin();
+// const checklogin = () => {
+//   let hasLogin = localStorage.getItem('hasLogin');
+//   if(hasLogin == "true") {
+//     window.location.replace('../sign-up.html')
+//   }
+// }
+// checklogin()
